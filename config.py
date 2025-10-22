@@ -18,15 +18,15 @@ API_BASE_URL = getenv("API_BASE_URL", "https://learningbots.site")
 API_KEY = getenv("API_KEY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://divyd261_db_user:divypateld2@musicbot.qf6t1pq.mongodb.net/?retryWrites=true&w=majority&appName=Musicbot")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001949198633))
 
 # Get this value from @Harry_RoxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6848223695))
+OWNER_ID = int(getenv("OWNER_ID", 963297412))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LearningBotsTeam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LearningBotssupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+h9JT3v-EnDZiOGM1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+h9JT3v-EnDZiOGM1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
